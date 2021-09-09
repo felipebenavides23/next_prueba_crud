@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@graphile-contrib/pg-simplify-inflector": "^6.0.0",
+    "@graphile-contrib/pg-simplify-inflector": "^6.1.0",
     "db-migrate": "^0.11.11",
     "db-migrate-pg": "^1.2.2",
+    "express": "^4.17.1",
+    "graphql": "^15.5.3",
     "postgraphile": "^4.9.0",
     "postgraphile-plugin-connection-filter": "^2.0.0"
   }

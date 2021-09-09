@@ -3,7 +3,7 @@
         "driver":"pg",
         "user":"postgres",
         "host":"localhost",
-        "database":"prueba",
+        "database":"base_prueba2",
         "password":"12345"
         
     }
